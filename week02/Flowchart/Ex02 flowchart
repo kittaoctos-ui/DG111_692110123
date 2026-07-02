@@ -1,0 +1,27 @@
+BEGIN [ชื่อ ตรวจสอบเกรด]   
+    INPUT  [ รับคะแนน ] 
+    IF score >= 80 THEN [เกรด A] 
+    IF score >= 70 THEN [เกรด B] 
+    IF score >= 60 THEN [เกรด C] 
+    IF score >= 50 THEN [เกรด D] 
+    ELSE [เกรด = F ]
+    OUTPUT [ เกรด ]
+END
+
+BEGIN [หาค่าสูงสุดจาก 2 ตัวเลข]
+    INPUT A
+    INPUT B
+    IF a > b? THEN [ แสดง a ]
+    ELSE [ แสดง  b ]
+END
+
+BEGIN [นับจาก 1 ถึง N]
+    INPUT  [ รับ N ]
+    PROCESS [i = 1]
+
+    WHILE i <= N? DO
+        PRINT [ i ]
+        PROCESS [ i = i + 1 ] 
+    END WHILE
+
+END

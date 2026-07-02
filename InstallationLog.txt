@@ -1,0 +1,28 @@
+************************************* Invoked: Thu Jun 25 14:47:00 2026
+[0] Arguments: C:\Users\KRITTA~1\AppData\Local\Temp\WinGet\MSYS2.MSYS2.20260611\msys2-x86_64-20260611.exe, install, --confirm-command, --root, C:\msys64
+[3] Operations sanity check succeeded.
+[6] Using metadata cache from "C:/Users/krittapasy/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[6] Found 0 cached items.
+[8] Loaded control script ":/metadata/installer-config/control_js"
+[8] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.
+************************************* Invoked: Thu Jun 25 14:47:21 2026
+[0] Arguments: C:\Users\KRITTA~1\AppData\Local\Temp\WinGet\MSYS2.MSYS2.20260611\msys2-x86_64-20260611.exe, install, --confirm-command, --root, C:\msys64
+[3] Operations sanity check succeeded.
+[6] Using metadata cache from "C:/Users/krittapasy/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[6] Found 0 cached items.
+[8] Loaded control script ":/metadata/installer-config/control_js"
+[8] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.
+************************************* Invoked: Thu Jun 25 14:47:56 2026
+[0] Arguments: C:\Users\KRITTA~1\AppData\Local\Temp\WinGet\MSYS2.MSYS2.20260611\msys2-x86_64-20260611.exe, install, --confirm-command, --root, C:\msys64
+[4] Operations sanity check succeeded.
+[6] Using metadata cache from "C:/Users/krittapasy/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[6] Found 0 cached items.
+[8] Loaded control script ":/metadata/installer-config/control_js"
+[8] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.
+************************************* Invoked: Thu Jun 25 14:48:22 2026
+[0] Arguments: C:\Users\KRITTA~1\AppData\Local\Temp\WinGet\MSYS2.MSYS2.20260611\msys2-x86_64-20260611.exe, install, --confirm-command, --root, C:\msys64
+[3] Operations sanity check succeeded.
+[5] Using metadata cache from "C:/Users/krittapasy/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[5] Found 0 cached items.
+[7] Loaded control script ":/metadata/installer-config/control_js"
+[7] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.

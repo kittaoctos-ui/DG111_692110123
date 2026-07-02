@@ -1,0 +1,20 @@
+``` mermaid [ระบบ Combat]
+flowchart TD 
+    Start([Start]) --> Input[/ Get player_hit , enemy_evasion /]
+    Input --> D1{ player_hit >= enemy_evasion?}
+    D1 --> |Yes| Hit[/Enemy HIT !!/] 
+    D1 --> |No| Miss[/Miss ??/]
+    Hit & Miss --> End([End])
+```
+
+``` mermaid  [ระบบ Level Up]
+flowchart TD
+    Start([Start]) --> Input[/ รับ current_xp , xp_needed , level /]
+    Input --> D1{current_xp >== xp_needed?}
+    D1 --> |Yes| Level[level = level + 1 ]
+    Level --> xp[xp_needed =  xp_needed x 1.5]
+    xp --> cur[ current_xp = 0 ]
+    cur --> nput
+    D1 --> |No| nput[/ แสดง level และcurrent_xp /]
+    nput --> End([End])
+```
