@@ -1,9 +1,9 @@
 BEGIN [ชื่อ ตรวจสอบเกรด]   
     INPUT  [ รับคะแนน ] 
     IF score >= 80 THEN [เกรด A] 
-    IF score >= 70 THEN [เกรด B] 
-    IF score >= 60 THEN [เกรด C] 
-    IF score >= 50 THEN [เกรด D] 
+    ELSE IF score >= 70 THEN [เกรด B] 
+    ELSE IF score >= 60 THEN [เกรด C] 
+    ELSE IF score >= 50 THEN [เกรด D] 
     ELSE [เกรด = F ]
     OUTPUT [ เกรด ]
 END
